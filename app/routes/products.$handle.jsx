@@ -59,7 +59,7 @@ export default function ProductHandle() {
             </span>
           </div>
 
-          <p>Selected Variant: {product.selectedVariant?.id}</p>
+          {/* <p>Selected Variant: {product.selectedVariant?.id}</p> */}
           <ProductOptions
             options={product.options}
             selectedVariant={selectedVariant}
